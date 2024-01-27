@@ -21,7 +21,8 @@ class Email extends Mailable
     public function build()
     {
         $insertData = array(
-            "mailToEmail" => $this->data["to"],
+            "mailBy" => session("user")->userId,
+            "mailTo" => json_encode($this->data["to"]),
             "mailToName" => $this->data["name"],
             "mailSubject" => $this->data["subject"],
             "mailContent" => $this->data["message"]
