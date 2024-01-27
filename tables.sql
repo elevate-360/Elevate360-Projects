@@ -24,7 +24,6 @@ CREATE TABLE tblMails (
     mailId int primary key AUTO_INCREMENT,
     mailBy int not null,
     mailTo text not null,
-    mailFrom varchar(512) not null,
     mailToName varchar(512) not null,
     mailSubject varchar(128) not null,
     mailContent text not null,

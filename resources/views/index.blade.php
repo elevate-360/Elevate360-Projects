@@ -31,35 +31,40 @@
                             </tr>
                         </thead>
                         <tbody>
-                            {{-- @foreach ($data as $item)
+                            @foreach ($data as $item)
                                 <tr>
                                     <td>{{ ++$count }}</td>
-                                    <td>{{ $item->traTitle }}</td>
-                                    <td>{{ $item->traEntity }}</td>
-                                    <td>{{ $item->traAmount }}</td>
+                                    <td>{{ $item->atpProjectName }}</td>
+                                    <td>{{ $item->atpPlatform }}</td>
+                                    <td>{{ $item->atpTechnology }}</td>
+                                    <td>{{ $item->atpProjectAmount }}</td>
                                     <td>
-                                        @if ($item->traType == 1)
-                                            <span class="badge bg-olive">Credit</span>
-                                        @else
-                                            <span class="badge bg-warning">Debit</span>
-                                        @endif
-                                    </td>
-                                    <td>
-                                        @switch($item->traMethod)
+                                        @switch($item->atpContactType)
                                             @case('0')
-                                                <span class="badge bg-info">Cash</span>
+                                                <i class="fa fa-envelope"></i>
                                             @break
 
                                             @case('1')
-                                                <span class="badge bg-danger">Card</span>
+                                                <i class="fa fa-comment"></i>
                                             @break
 
                                             @case('2')
-                                                <span class="badge bg-success">UPI</span>
+                                                <i class="fa fa-phone"></i>
                                             @break
 
                                             @case('3')
-                                                <span class="badge bg-warning">Cheque</span>
+                                                    <i class="fa fa-whatsapp"></i>
+                                            @break
+                                        @endswitch
+                                    </td>
+                                    <td>
+                                        @switch($item->atpStatus)
+                                            @case('0')
+                                                <span class="badge badge-danger">Decliened</span>
+                                            @break
+
+                                            @case('1')
+                                                <span class="badge badge-danger">Accepted</span>
                                             @break
                                         @endswitch
                                     </td>
@@ -71,11 +76,11 @@
                                                 <a href="">{{ $item->userFirstName }}</a>
                                             </span>
                                             <span
-                                                class="description">{{ date('d M, Y - h:m a', strtotime($item->traDate)) }}</span>
+                                                class="description">{{ date('d M, Y - h:m a', strtotime($item->atpDate)) }}</span>
                                         </div>
                                     </td>
                                 </tr>
-                            @endforeach --}}
+                            @endforeach
                         </tbody>
                         <tfoot>
                             <tr>
@@ -86,7 +91,7 @@
                                 <th>Project Amount</th>
                                 <th>Contact Type</th>
                                 <th>Status</th>
-                                <th>Date-time</th>
+                                <th>User</th>
                             </tr>
                         </tfoot>
                     </table>

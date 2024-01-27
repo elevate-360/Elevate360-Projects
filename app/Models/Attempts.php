@@ -4,10 +4,10 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class User extends Model
+class Attempts extends Model
 {
-    protected $table = 'tblUser';
-    protected $primaryKey = 'userId';
+    protected $table = 'tblAttempts';
+    protected $primaryKey = 'atpId';
 
     // Disable timestamps for this model
     public $timestamps = false;

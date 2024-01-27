@@ -14,9 +14,9 @@
  <meta name="format-detection" content="email=no" />
  <meta name="x-apple-disable-message-reformatting" />
  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:ital,wght@0,100;1,100;0,200;1,200;0,300;1,300;0,400;1,400;0,500;1,500;0,600;1,600;0,700;1,700;0,800;1,800;0,900;1,900" rel="stylesheet" />
- <title>Login Attempt</title>
+ <title>Untitled</title>
  <!-- Made with Postcards by Designmodo https://designmodo.com/postcards -->
- <!--[if !mso]><!-->
+ <!--[if !mso]><!-- -->
  <style>
  @media  all {
                                                  /* cyrillic-ext */
@@ -223,10 +223,6 @@
              display: none !important;
          }
 
-         /* .pc-lg-hide {
-             display: none;
-         } */
-
          @media (min-width: 621px) {
              .pc-lg-hide {
                  display: none;
@@ -246,15 +242,19 @@
  .pc-w620-padding-20-0 {padding-top: 10px !important;padding-bottom: 10px !important;}
  table.pc-w620-spacing-0-0-0-0 {margin: 0px 0px 0px 0px !important;}
  td.pc-w620-spacing-0-0-0-0,th.pc-w620-spacing-0-0-0-0{margin: 0 !important;padding: 0px 0px 0px 0px !important;}
- .pc-w620-padding-0-0-0-250 {padding: 0px 0px 0px 250px !important;}
+ .pc-w620-padding-0-0-0-200 {padding: 0px 0px 0px 200px !important;}
  .pc-w620-padding-0-10 {padding-left: 5px !important;padding-right: 5px !important;}
  .pc-w620-padding-30-30-30-30 {padding: 30px 30px 30px 30px !important;}
  .pc-w620-fontSize-30 {font-size: 30px !important;}
  .pc-w620-lineHeight-40 {line-height: 40px !important;}
+ div.pc-w620-align-left,th.pc-w620-align-left,a.pc-w620-align-left,td.pc-w620-align-left {text-align: left !important;text-align-last: left !important;}
+ table.pc-w620-align-left{float: none !important;margin-right: auto !important;margin-left: 0 !important;}
+ img.pc-w620-align-left{margin-right: auto !important;margin-left: 0 !important;}
  .pc-w620-padding-35-35-35-35 {padding: 35px 35px 35px 35px !important;}
  .pc-w620-padding-40-0 {padding-top: 20px !important;padding-bottom: 20px !important;}
  table.pc-w620-spacing-0-0-22-0 {margin: 0px 0px 22px 0px !important;}
  td.pc-w620-spacing-0-0-22-0,th.pc-w620-spacing-0-0-22-0{margin: 0 !important;padding: 0px 0px 22px 0px !important;}
+ .pc-w620-padding-0-0-0-0 {padding: 0px 0px 0px 0px !important;}
  table.pc-w620-spacing-0-0-25-0 {margin: 0px 0px 25px 0px !important;}
  td.pc-w620-spacing-0-0-25-0,th.pc-w620-spacing-0-0-25-0{margin: 0 !important;padding: 0px 0px 25px 0px !important;}
 
@@ -284,7 +284,7 @@
  .pc-w520-padding-30-30-30-30 {padding: 30px 30px 30px 30px !important;}
  }
  </style>
- <!--[if !mso]><!-- -->
+ <!--[if !mso]><!-->
  <style>
  @media all { @font-face { font-family: 'Fira Sans'; font-style: normal; font-weight: 100; src: url('https://fonts.gstatic.com/s/firasans/v17/va9C4kDNxMZdWfMOD5Vn9LjHYTQ.woff') format('woff'), url('https://fonts.gstatic.com/s/firasans/v17/va9C4kDNxMZdWfMOD5Vn9LjHYTI.woff2') format('woff2'); } @font-face { font-family: 'Fira Sans'; font-style: italic; font-weight: 100; src: url('https://fonts.gstatic.com/s/firasans/v17/va9A4kDNxMZdWfMOD5VvkrCqUT7fdw.woff') format('woff'), url('https://fonts.gstatic.com/s/firasans/v17/va9A4kDNxMZdWfMOD5VvkrCqUT7fcQ.woff2') format('woff2'); } @font-face { font-family: 'Fira Sans'; font-style: normal; font-weight: 200; src: url('https://fonts.gstatic.com/s/firasans/v17/va9B4kDNxMZdWfMOD5VnWKneSBf8.woff') format('woff'), url('https://fonts.gstatic.com/s/firasans/v17/va9B4kDNxMZdWfMOD5VnWKneSBf6.woff2') format('woff2'); } @font-face { font-family: 'Fira Sans'; font-style: italic; font-weight: 200; src: url('https://fonts.gstatic.com/s/firasans/v17/va9f4kDNxMZdWfMOD5VvkrAGQCf2VF8.woff') format('woff'), url('https://fonts.gstatic.com/s/firasans/v17/va9f4kDNxMZdWfMOD5VvkrAGQCf2VFk.woff2') format('woff2'); } @font-face { font-family: 'Fira Sans'; font-style: normal; font-weight: 300; src: url('https://fonts.gstatic.com/s/firasans/v17/va9B4kDNxMZdWfMOD5VnPKreSBf8.woff') format('woff'), url('https://fonts.gstatic.com/s/firasans/v17/va9B4kDNxMZdWfMOD5VnPKreSBf6.woff2') format('woff2'); } @font-face { font-family: 'Fira Sans'; font-style: italic; font-weight: 300; src: url('https://fonts.gstatic.com/s/firasans/v17/va9f4kDNxMZdWfMOD5VvkrBiQyf2VF8.woff') format('woff'), url('https://fonts.gstatic.com/s/firasans/v17/va9f4kDNxMZdWfMOD5VvkrBiQyf2VFk.woff2') format('woff2'); } @font-face { font-family: 'Fira Sans'; font-style: normal; font-weight: 400; src: url('https://fonts.gstatic.com/s/firasans/v17/va9E4kDNxMZdWfMOD5VvmYjN.woff') format('woff'), url('https://fonts.gstatic.com/s/firasans/v17/va9E4kDNxMZdWfMOD5VvmYjL.woff2') format('woff2'); } @font-face { font-family: 'Fira Sans'; font-style: italic; font-weight: 400; src: url('https://fonts.gstatic.com/s/firasans/v17/va9C4kDNxMZdWfMOD5VvkrjHYTQ.woff') format('woff'), url('https://fonts.gstatic.com/s/firasans/v17/va9C4kDNxMZdWfMOD5VvkrjHYTI.woff2') format('woff2'); } @font-face { font-family: 'Fira Sans'; font-style: normal; font-weight: 500; src: url('https://fonts.gstatic.com/s/firasans/v17/va9B4kDNxMZdWfMOD5VnZKveSBf8.woff') format('woff'), url('https://fonts.gstatic.com/s/firasans/v17/va9B4kDNxMZdWfMOD5VnZKveSBf6.woff2') format('woff2'); } @font-face { font-family: 'Fira Sans'; font-style: italic; font-weight: 500; src: url('https://fonts.gstatic.com/s/firasans/v17/va9f4kDNxMZdWfMOD5VvkrA6Qif2VF8.woff') format('woff'), url('https://fonts.gstatic.com/s/firasans/v17/va9f4kDNxMZdWfMOD5VvkrA6Qif2VFk.woff2') format('woff2'); } @font-face { font-family: 'Fira Sans'; font-style: normal; font-weight: 600; src: url('https://fonts.gstatic.com/s/firasans/v17/va9B4kDNxMZdWfMOD5VnSKzeSBf8.woff') format('woff'), url('https://fonts.gstatic.com/s/firasans/v17/va9B4kDNxMZdWfMOD5VnSKzeSBf6.woff2') format('woff2'); } @font-face { font-family: 'Fira Sans'; font-style: italic; font-weight: 600; src: url('https://fonts.gstatic.com/s/firasans/v17/va9f4kDNxMZdWfMOD5VvkrAWRSf2VF8.woff') format('woff'), url('https://fonts.gstatic.com/s/firasans/v17/va9f4kDNxMZdWfMOD5VvkrAWRSf2VFk.woff2') format('woff2'); } @font-face { font-family: 'Fira Sans'; font-style: normal; font-weight: 700; src: url('https://fonts.gstatic.com/s/firasans/v17/va9B4kDNxMZdWfMOD5VnLK3eSBf8.woff') format('woff'), url('https://fonts.gstatic.com/s/firasans/v17/va9B4kDNxMZdWfMOD5VnLK3eSBf6.woff2') format('woff2'); } @font-face { font-family: 'Fira Sans'; font-style: normal; font-weight: 800; src: url('https://fonts.gstatic.com/s/firasans/v17/va9B4kDNxMZdWfMOD5VnMK7eSBf8.woff') format('woff'), url('https://fonts.gstatic.com/s/firasans/v17/va9B4kDNxMZdWfMOD5VnMK7eSBf6.woff2') format('woff2'); } @font-face { font-family: 'Fira Sans'; font-style: italic; font-weight: 800; src: url('https://fonts.gstatic.com/s/firasans/v17/va9f4kDNxMZdWfMOD5VvkrBuRyf2VF8.woff') format('woff'), url('https://fonts.gstatic.com/s/firasans/v17/va9f4kDNxMZdWfMOD5VvkrBuRyf2VFk.woff2') format('woff2'); } @font-face { font-family: 'Fira Sans'; font-style: italic; font-weight: 700; src: url('https://fonts.gstatic.com/s/firasans/v17/va9f4kDNxMZdWfMOD5VvkrByRCf2VF8.woff') format('woff'), url('https://fonts.gstatic.com/s/firasans/v17/va9f4kDNxMZdWfMOD5VvkrByRCf2VFk.woff2') format('woff2'); } @font-face { font-family: 'Fira Sans'; font-style: normal; font-weight: 900; src: url('https://fonts.gstatic.com/s/firasans/v17/va9B4kDNxMZdWfMOD5VnFK_eSBf8.woff') format('woff'), url('https://fonts.gstatic.com/s/firasans/v17/va9B4kDNxMZdWfMOD5VnFK_eSBf6.woff2') format('woff2'); } @font-face { font-family: 'Fira Sans'; font-style: italic; font-weight: 900; src: url('https://fonts.gstatic.com/s/firasans/v17/va9f4kDNxMZdWfMOD5VvkrBKRif2VF8.woff') format('woff'), url('https://fonts.gstatic.com/s/firasans/v17/va9f4kDNxMZdWfMOD5VvkrBKRif2VFk.woff2') format('woff2'); } }
  </style>
@@ -312,7 +312,7 @@
    <td align="center" valign="top">
     <table class="pc-project-container" style="width: 600px; max-width: 600px;" width="600" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
      <tr>
-      <td align="left" valign="top">
+      <td style="padding: 0px 0px 0px 0px;" align="left" valign="top">
        <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
         <tr>
          <td valign="top">
@@ -325,10 +325,10 @@
                <td valign="top" class="pc-w520-padding-25-25-25-25 pc-w620-padding-30-30-30-30" style="padding: 39px 40px 39px 40px;border-radius: 0px;background-color: #1b1b1b;" bgcolor="#1b1b1b">
                 <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
                  <tr>
-                  <td>
-                   <table class="pc-width-fill pc-w620-gridCollapsed-0" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                  <td align="left">
+                   <table class="pc-width-hug pc-w620-gridCollapsed-0" align="left" border="0" cellpadding="0" cellspacing="0" role="presentation">
                     <tr class="pc-grid-tr-first pc-grid-tr-last">
-                     <td class="pc-grid-td-first pc-w620-padding-20-0" align="left" valign="middle" style="padding-top: 0px; padding-right: 140px; padding-bottom: 0px; padding-left: 0px;">
+                     <td class="pc-grid-td-first pc-w620-padding-20-0" valign="middle" style="padding-top: 0px; padding-right: 10px; padding-bottom: 0px; padding-left: 0px;">
                       <table border="0" cellpadding="0" cellspacing="0" role="presentation">
                        <tr>
                         <td align="left" valign="top">
@@ -338,7 +338,9 @@
                             <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
                              <tr>
                               <td align="left" valign="top">
-                               <img src="https://cloudfilesdm.com/postcards/image-1701774552155.png" class="" width="125" height="35" alt="Elevate360-Logo" />
+                                <a class="pc-font-alt" href="https://linkedin.com/company/elevate-360" target="_blank" style="text-decoration: none;text-align: left;text-align-last: left;">
+                                    <img src="https://cloudfilesdm.com/postcards/image-1706202007702.png" class="" width="160" height="42" alt="" />
+                                </a>
                               </td>
                              </tr>
                             </table>
@@ -349,10 +351,10 @@
                        </tr>
                       </table>
                      </td>
-                     <td class="pc-grid-td-last pc-w620-padding-20-0" align="left" valign="middle" style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 140px;">
+                     <td class="pc-grid-td-last pc-w620-padding-20-0" valign="middle" style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 10px;">
                       <table border="0" cellpadding="0" cellspacing="0" role="presentation">
                        <tr>
-                        <td class="pc-w620-padding-0-0-0-250" align="left" valign="top" style="padding: 0px 0px 0px 450px;">
+                        <td class="pc-w620-padding-0-0-0-200" align="left" valign="top" style="padding: 0px 0px 0px 700px;">
                          <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation">
                           <tr>
                            <td align="left" valign="top">
@@ -374,9 +376,11 @@
                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" align="left">
                                             <tr>
                                              <td valign="top" align="left">
-                                              <a class="pc-font-alt" href="https://wa.me/9664788574" target="_blank" style="text-decoration: none;text-align: left;text-align-last: left;">
-                                               <img src="https://cloudfilesdm.com/postcards/34df8041bc4b47d2a194c86ced2480cf.png" class="" width="15" height="16" alt="" />
-                                              </a>
+                                              <div class="pc-font-alt" style="text-align: left;text-align-last: left;">
+                                                <a class="pc-font-alt" href="https://wa.me/9664788574" target="_blank" style="text-decoration: none;text-align: left;text-align-last: left;">
+                                                    <img src="https://cloudfilesdm.com/postcards/dc7d1c2632f2249096b758a458ff8f5f.png" class="" width="15" height="17"/>
+                                                </a>
+                                              </div>
                                              </td>
                                             </tr>
                                            </table>
@@ -403,9 +407,11 @@
                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" align="left">
                                             <tr>
                                              <td valign="top" align="left">
-                                              <a class="pc-font-alt" href="https://twitter.com/Elevate__360" target="_blank" style="text-decoration: none;text-align: left;text-align-last: left;">
-                                               <img src="https://cloudfilesdm.com/postcards/dae1140630534fd14ae2baebf396ee4b.png" class="" width="15" height="16" alt="" />
-                                              </a>
+                                              <div class="pc-font-alt" style="text-align: left;text-align-last: left;">
+                                                <a class="pc-font-alt" href="https://twitter.com/Elevate__360" target="_blank" style="text-decoration: none;text-align: left;text-align-last: left;">
+                                                    <img src="https://cloudfilesdm.com/postcards/dae1140630534fd14ae2baebf396ee4b.png" class="" width="15" height="17" alt="" />
+                                                </a>
+                                              </div>
                                              </td>
                                             </tr>
                                            </table>
@@ -432,9 +438,11 @@
                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" align="left">
                                             <tr>
                                              <td valign="top" align="left">
-                                              <a class="pc-font-alt" href="https://www.instagram.com/elevate360.in/" target="_blank" style="text-decoration: none;text-align: left;text-align-last: left;">
-                                               <img src="https://cloudfilesdm.com/postcards/f1f2fa58c6ccd395a3ec3296c12241c6.png" class="" width="15" height="18" alt="" />
-                                              </a>
+                                              <div class="pc-font-alt" style="text-align: left;text-align-last: left;">
+                                                <a class="pc-font-alt" href="https://www.instagram.com/elevate360.in/" target="_blank" style="text-decoration: none;text-align: left;text-align-last: left;">
+                                                    <img src="https://cloudfilesdm.com/postcards/f1f2fa58c6ccd395a3ec3296c12241c6.png" class="" width="15" height="17" alt="" />
+                                                </a>
+                                              </div>
                                              </td>
                                             </tr>
                                            </table>
@@ -488,8 +496,8 @@
                   <td valign="top" style="padding: 0px 0px 13px 0px;">
                    <table border="0" cellpadding="0" cellspacing="0" role="presentation">
                     <tr>
-                     <td valign="top" class="pc-font-alt" style="mso-line-height: exactly;line-height: 121%;font-family: 'Fira Sans', Helvetica, Arial, sans-serif;font-size: 14px;font-weight: 500;color: #40be65;">
-                      {{ date("d M, Y", strtotime($data["date"])) }}</td>
+                     <td valign="top" class="pc-font-alt" style="mso-line-height: exactly;line-height: 121%;font-family: Fira Sans, Arial, Helvetica, sans-serif;font-size: 14px;font-weight: 500;color: #40be65;">
+                        {{ date("d M, Y", strtotime($data["date"])) }}</td>
                     </tr>
                    </table>
                   </td>
@@ -500,8 +508,8 @@
                   <td valign="top" style="padding: 0px 0px 15px 0px;">
                    <table border="0" cellpadding="0" cellspacing="0" role="presentation">
                     <tr>
-                     <td valign="top" class="pc-font-alt pc-w620-fontSize-30 pc-w620-lineHeight-40" style="mso-line-height: exactly;line-height: 128%;letter-spacing: -0.6px;font-family: 'Fira Sans', Helvetica, Arial, sans-serif;font-size: 36px;font-weight: 800;color: #151515;">
-                      Hello, {{ $data["name"] }}!</td>
+                     <td valign="top" class="pc-font-alt pc-w620-fontSize-30 pc-w620-lineHeight-40" style="mso-line-height: exactly;line-height: 128%;letter-spacing: -0.6px;font-family: Fira Sans, Arial, Helvetica, sans-serif;font-size: 36px;font-weight: 800;color: #151515;">
+                      Hello {{ $data["name"] }}!</td>
                     </tr>
                    </table>
                   </td>
@@ -509,11 +517,13 @@
                 </table>
                 <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
                  <tr>
-                  <td valign="top" style="padding: 0px 0px 20px 0px;">
-                   <table border="0" cellpadding="0" cellspacing="0" role="presentation">
+                  <td class="pc-w620-align-left" valign="top" style="padding: 0px 0px 20px 0px;">
+                   <table class="pc-w620-align-left" border="0" cellpadding="0" cellspacing="0" role="presentation">
                     <tr>
-                     <td valign="top" class="pc-font-alt" style="mso-line-height: exactly;line-height: 156%;letter-spacing: -0.2px;font-family: 'Fira Sans', Helvetica, Arial, sans-serif;font-size: 18px;font-weight: normal;color: #9b9b9b;">
-                      {!! $data["message"] !!}</td>
+                     <td valign="top" class="pc-font-alt pc-w620-align-left" style="mso-line-height: exactly;line-height: 156%;letter-spacing: -0.2px;font-family: Fira Sans, Arial, Helvetica, sans-serif;font-size: 18px;font-weight: normal;color: #000000;">
+                      <div><span>{!! $data["message"] !!}</span>
+                      </div>
+                     </td>
                     </tr>
                    </table>
                   </td>
@@ -554,7 +564,7 @@
                            <td align="left" valign="top">
                             <table border="0" cellpadding="0" cellspacing="0" role="presentation" align="left">
                              <tr>
-                              <td valign="top" class="pc-font-alt" style="mso-line-height: exactly;line-height: 150%;letter-spacing: -0.1px;font-family: 'Fira Sans', Helvetica, Arial, sans-serif;font-size: 16px;font-weight: bold;color: #1b1b1b;">
+                              <td valign="top" class="pc-font-alt" style="mso-line-height: exactly;line-height: 150%;letter-spacing: -0.1px;font-family: Fira Sans, Arial, Helvetica, sans-serif;font-size: 16px;font-weight: bold;color: #1b1b1b;">
                                <div><span>Support Team</span>
                                </div>
                               </td>
@@ -566,7 +576,7 @@
                            <td align="left" valign="top">
                             <table border="0" cellpadding="0" cellspacing="0" role="presentation" align="left">
                              <tr>
-                              <td valign="top" class="pc-font-alt" style="mso-line-height: exactly;line-height: 143%;letter-spacing: -0.2px;font-family: 'Fira Sans', Helvetica, Arial, sans-serif;font-size: 14px;font-weight: normal;color: #9b9b9b;">
+                              <td valign="top" class="pc-font-alt" style="mso-line-height: exactly;line-height: 143%;letter-spacing: -0.2px;font-family: Fira Sans, Arial, Helvetica, sans-serif;font-size: 14px;font-weight: normal;color: #9b9b9b;">
                                <div><span>Elevate360</span>
                                </div>
                               </td>
@@ -619,7 +629,7 @@
                               <td valign="top" style="padding: 0px 0px 10px 0px;">
                                <table border="0" cellpadding="0" cellspacing="0" role="presentation">
                                 <tr>
-                                 <td valign="top" class="pc-font-alt" style="mso-line-height: exactly;line-height: 133%;font-family: 'Fira Sans', Helvetica, Arial, sans-serif;font-size: 18px;font-weight: 500;color: #ffffff;">
+                                 <td valign="top" class="pc-font-alt" style="mso-line-height: exactly;line-height: 133%;font-family: Fira Sans, Arial, Helvetica, sans-serif;font-size: 18px;font-weight: 500;color: #ffffff;">
                                   Follow Us.</td>
                                 </tr>
                                </table>
@@ -633,10 +643,10 @@
                             <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation">
                              <tr>
                               <td class="pc-w620-spacing-0-0-22-0" valign="top" style="padding: 0px 0px 52px 0px;">
-                               <table border="0" cellpadding="0" cellspacing="0" role="presentation">
+                               <table class="pc-w620-align-left" border="0" cellpadding="0" cellspacing="0" role="presentation">
                                 <tr>
-                                 <td valign="top" class="pc-font-alt" style="mso-line-height: exactly;line-height: 143%;letter-spacing: -0.2px;font-family: 'Fira Sans', Helvetica, Arial, sans-serif;font-size: 14px;font-weight: normal;color: #d8d8d8;">
-                                  <div style="text-align: start; text-align-last: start;"><span style="font-weight: 400;font-style: normal;color: rgb(209, 213, 219);">Experience excellence with Elevate 360, our innovative performance management system. We&#39;re dedicated to supporting your success through cutting-edge solutions. Connect with us anytime; we&#39;re always here to enhance your performance journey.</span>
+                                 <td valign="top" class="pc-font-alt pc-w620-align-left" align="left" style="mso-line-height: exactly;line-height: 143%;letter-spacing: -0.2px;font-family: Fira Sans, Arial, Helvetica, sans-serif;font-size: 14px;font-weight: normal;color: #d8d8d8;text-align: left;text-align-last: left;">
+                                  <div><span style="font-weight: 400;font-style: normal;color: rgb(209, 213, 219);">Discover excellence with Elevate360, your premier IT solutions partner. We&#39;re committed to supporting your success through innovative and cutting-edge solutions. Connect with us anytime – your journey to elevated IT experiences begins here</span>
                                   </div>
                                  </td>
                                 </tr>
@@ -666,38 +676,11 @@
                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" align="left">
                                             <tr>
                                              <td valign="top" align="left">
-                                              <a class="pc-font-alt" href="https://twitter.com/Elevate__360" target="_blank" style="text-decoration: none;text-align: left;text-align-last: left;">
-                                               <img src="https://cloudfilesdm.com/postcards/10451afef0b15b3557459ca08369e514.png" class="" width="22" height="20" style="display: block;border: 0;outline: 0;line-height: 100%;-ms-interpolation-mode: bicubic;width:22px;height: auto;max-width: 100%;" alt="" />
-                                              </a>
-                                             </td>
-                                            </tr>
-                                           </table>
-                                          </td>
-                                         </tr>
-                                        </table>
-                                       </td>
-                                      </tr>
-                                     </table>
-                                    </td>
-                                   </tr>
-                                  </table>
-                                 </td>
-                                 <td class="pc-w620-padding-0-10" valign="middle" style="padding-top: 0px; padding-right: 10px; padding-bottom: 0px; padding-left: 10px;">
-                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation">
-                                   <tr>
-                                    <td align="left" valign="top">
-                                     <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation">
-                                      <tr>
-                                       <td align="left" valign="top">
-                                        <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation">
-                                         <tr>
-                                          <td valign="top">
-                                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" align="left">
-                                            <tr>
-                                             <td valign="top" align="left">
-                                              <a class="pc-font-alt" href="https://www.instagram.com/elevate360.in/" target="_blank" style="text-decoration: none;text-align: left;text-align-last: left;">
-                                               <img src="https://cloudfilesdm.com/postcards/d89d65d93ee39fec8f716aefc9b687fa.png" class="" width="20" height="20" style="display: block;border: 0;outline: 0;line-height: 100%;-ms-interpolation-mode: bicubic;width:20px;height: auto;max-width: 100%;" alt="" />
-                                              </a>
+                                              <div class="pc-font-alt" style="text-align: left;text-align-last: left;">
+                                                <a class="pc-font-alt" href="https://linkedin.com/company/elevate-360" target="_blank" style="text-decoration: none;text-align: left;text-align-last: left;">
+                                                    <img src="https://cloudfilesdm.com/postcards/6474c88b650835d8891be353ca8c74d0.png" class="" width="20" height="20" style="display: block;border: 0;outline: 0;line-height: 100%;-ms-interpolation-mode: bicubic;width:20px;height: auto;max-width: 100%;" alt="" />
+                                                </a>
+                                              </div>
                                              </td>
                                             </tr>
                                            </table>
@@ -725,7 +708,40 @@
                                             <tr>
                                              <td valign="top" align="left">
                                               <div class="pc-font-alt" style="text-align: left;text-align-last: left;">
-                                               <img src="https://cloudfilesdm.com/postcards/5a14400163a58e597a200db837a9ee39.png" class="" width="20" height="20" style="display: block;border: 0;outline: 0;line-height: 100%;-ms-interpolation-mode: bicubic;width:20px;height: auto;max-width: 100%;" alt="" />
+                                                <a class="pc-font-alt" href="https://twitter.com/Elevate__360" target="_blank" style="text-decoration: none;text-align: left;text-align-last: left;">
+                                                    <img src="https://cloudfilesdm.com/postcards/10451afef0b15b3557459ca08369e514.png" class="" width="17" height="18" style="display: block;border: 0;outline: 0;line-height: 100%;-ms-interpolation-mode: bicubic;width:22px;height: auto;max-width: 100%;" alt="" />
+                                                </a>
+                                              </div>
+                                             </td>
+                                            </tr>
+                                           </table>
+                                          </td>
+                                         </tr>
+                                        </table>
+                                       </td>
+                                      </tr>
+                                     </table>
+                                    </td>
+                                   </tr>
+                                  </table>
+                                 </td>
+                                 <td class="pc-w620-padding-0-10" valign="middle" style="padding-top: 0px; padding-right: 10px; padding-bottom: 0px; padding-left: 10px;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation">
+                                   <tr>
+                                    <td align="left" valign="top">
+                                     <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                                      <tr>
+                                       <td align="left" valign="top">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                                         <tr>
+                                          <td valign="top">
+                                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" align="left">
+                                            <tr>
+                                             <td valign="top" align="left">
+                                              <div class="pc-font-alt" style="text-align: left;text-align-last: left;">
+                                                <a class="pc-font-alt" href="https://www.instagram.com/elevate360.in/" target="_blank" style="text-decoration: none;text-align: left;text-align-last: left;">
+                                                    <img src="https://cloudfilesdm.com/postcards/d89d65d93ee39fec8f716aefc9b687fa.png" class="" width="20" height="20" style="display: block;border: 0;outline: 0;line-height: 100%;-ms-interpolation-mode: bicubic;width:20px;height: auto;max-width: 100%;" alt="" />
+                                                </a>
                                               </div>
                                              </td>
                                             </tr>
@@ -753,9 +769,11 @@
                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" align="left">
                                             <tr>
                                              <td valign="top" align="left">
-                                              <a class="pc-font-alt" href="https://wa.me/9664788574" target="_blank" style="text-decoration: none;text-align: left;text-align-last: left;">
-                                               <img src="https://cloudfilesdm.com/postcards/ac001cc0446f6e02894f7ec1dfece4dc.png" class="" width="20" height="20" style="display: block;border: 0;outline: 0;line-height: 100%;-ms-interpolation-mode: bicubic;width:20px;height: auto;max-width: 100%;" alt="" />
-                                              </a>
+                                              <div class="pc-font-alt" style="text-align: left;text-align-last: left;">
+                                                <a class="pc-font-alt" href="https://wa.me/9664788574" target="_blank" style="text-decoration: none;text-align: left;text-align-last: left;">
+                                                    <img src="https://cloudfilesdm.com/postcards/4cf32924439473b87a4260eaca86f81d.png" class="" width="20" height="20" style="display: block;border: 0;outline: 0;line-height: 100%;-ms-interpolation-mode: bicubic;width:20px;height: auto;max-width: 100%;" alt="" />
+                                                </a>
+                                              </div>
                                              </td>
                                             </tr>
                                            </table>
@@ -784,7 +802,7 @@
                      <td class="pc-grid-td-last pc-w620-padding-40-0" align="left" valign="top" style="width: 50%; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 20px;">
                       <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%;">
                        <tr>
-                        <td align="left" valign="top">
+                        <td class="pc-w620-padding-0-0-0-0" align="left" valign="top" style="padding: 0px 0px 0px 250px;">
                          <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%;">
                           <tr>
                            <td align="left" valign="top">
@@ -793,7 +811,7 @@
                               <td valign="top" style="padding: 0px 0px 10px 0px;">
                                <table border="0" cellpadding="0" cellspacing="0" role="presentation">
                                 <tr>
-                                 <td valign="top" class="pc-font-alt" style="mso-line-height: exactly;line-height: 133%;letter-spacing: -0.2px;font-family: 'Fira Sans', Helvetica, Arial, sans-serif;font-size: 18px;font-weight: 500;color: #ffffff;">
+                                 <td valign="top" class="pc-font-alt" style="mso-line-height: exactly;line-height: 133%;letter-spacing: -0.2px;font-family: Fira Sans, Arial, Helvetica, sans-serif;font-size: 18px;font-weight: 500;color: #ffffff;">
                                   Contact us</td>
                                 </tr>
                                </table>
@@ -806,15 +824,15 @@
                            <td align="left" valign="top">
                             <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation">
                              <tr>
-                              <td class="pc-w620-spacing-0-0-25-0" valign="top" style="padding: 0px 0px 40px 0px;">
+                              <td class="pc-w620-spacing-0-0-25-0" valign="top" style="padding: 0px 0px 45px 0px;">
                                <table border="0" cellpadding="0" cellspacing="0" role="presentation">
                                 <tr>
-                                 <td valign="top" class="pc-font-alt" style="padding: 0px 0px 0px 0px;mso-line-height: exactly;line-height: 143%;letter-spacing: -0.2px;font-family: 'Fira Sans', Helvetica, Arial, sans-serif;font-size: 14px;font-weight: normal;color: #d8d8d8;">
+                                 <td valign="top" class="pc-font-alt" style="mso-line-height: exactly;line-height: 143%;letter-spacing: -0.2px;font-family: Fira Sans, Arial, Helvetica, sans-serif;font-size: 14px;font-weight: normal;color: #d8d8d8;">
                                   <div><span>1 Global Residency,</span>
                                   </div>
-                                  <div><span>Ugat-Bhesan road, </span>
+                                  <div><span>Ugat - Bhesan Road,</span>
                                   </div>
-                                  <div><span>Surat, Gujarat IN 395009</span>
+                                  <div><span>Surat, Gujarat, IND - 395009 </span>
                                   </div>
                                  </td>
                                 </tr>
@@ -832,11 +850,10 @@
                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" align="left">
                                 <tr>
                                  <td valign="top" align="left">
-                                  <a name="tel919664788574"></a>
-                                  <div class="pc-font-alt" style="line-height: 133%;letter-spacing: -0.2px;font-family: 'Fira Sans', Helvetica, Arial, sans-serif;font-size: 18px;font-weight: 500;color: #ffffff;text-align: left;text-align-last: left;">
-                                   <div><span>+91 96647 88574</span>
-                                   </div>
-                                  </div>
+                                  <a class="pc-font-alt" href="tel:+919664788574" target="_blank" style="text-decoration: none;line-height: 133%;letter-spacing: -0.2px;font-family: Fira Sans, Arial, Helvetica, sans-serif;font-size: 18px;font-weight: 500;color: #ffffff;text-align: left;text-align-last: left;">
+                                   <span><span>+91 96647 88574 </span>
+                                   </span>
+                                  </a>
                                  </td>
                                 </tr>
                                </table>
@@ -850,8 +867,8 @@
                             <table border="0" cellpadding="0" cellspacing="0" role="presentation" align="left">
                              <tr>
                               <td valign="top" align="left">
-                               <a class="pc-font-alt" href="https://mail.google.com/mail/u/0/?fs=1&to=elevate360.contact@gmail.com&tf=cm" target="_blank" style="text-decoration: none;line-height: 171%;font-family: 'Fira Sans', Helvetica, Arial, sans-serif;font-size: 14px;font-weight: 500;color: #1595e7;text-align: left;text-align-last: left;">
-                                <span><span>elevate360.contact@gmail.com </span>
+                               <a class="pc-font-alt" href="https://mail.google.com/mail/u/0/?fs=1&to=contact@elevate360.in&tf=cm" target="_blank" style="text-decoration: none;line-height: 171%;font-family: Fira Sans, Arial, Helvetica, sans-serif;font-size: 14px;font-weight: 500;color: #1595e7;text-align: left;text-align-last: left;">
+                                <span><span>contact@elevate360.in</span>
                                 </span>
                                </a>
                               </td>
@@ -878,6 +895,7 @@
           <!-- END MODULE: Footer 1 -->
          </td>
         </tr>
+
        </table>
       </td>
      </tr>
