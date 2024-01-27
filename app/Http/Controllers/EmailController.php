@@ -27,15 +27,14 @@ class EmailController extends BaseController
 
     public function sendEmail(Request $request)
     {
-        dd(session("user")->userEmail);
         $email = explode(",", trim($request->input("email")));
         $name = $request->input("name");
         $customData = array(
             "subject" => $request->input("subject"),
             "to" => $email,
             "name" => $name,
-            "fromEmail" => $email,
-            "fromName" => $name,
+            "fromEmail" => session("user")->userLogin,
+            "fromName" => session("user")->userFirstName . " " . session("user")->userLastName . " | Elevate360",
             "message" => $request->input("message"),
             "date" => date("Y-m-d")
         );

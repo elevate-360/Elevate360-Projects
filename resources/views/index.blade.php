@@ -64,7 +64,11 @@
                                             @break
 
                                             @case('1')
-                                                <span class="badge badge-danger">Accepted</span>
+                                                <span class="badge badge-warning">Pending</span>
+                                            @break
+
+                                            @case('2')
+                                                <span class="badge badge-success">Accepted</span>
                                             @break
                                         @endswitch
                                     </td>
