@@ -42,7 +42,7 @@
                                     </td>
                                     <td>{{ $item['mailSubject'] }}</td>
                                     <td><span
-                                            class="badge bg-success">{{ date('d M, Y h:i a', strtotime($item['mailDate']) + 19800) }}</span>
+                                            class="badge bg-success">{{ date('d M, Y h:i a', strtotime($item['mailDate']) + ((5 * 60 * 60) + (30 * 60))) }}</span>
                                     </td>
                                 </tr>
                                 <tr class="expandable-body d-none">

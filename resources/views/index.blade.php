@@ -74,7 +74,7 @@
                                                 <a href="">{{ $item->userFirstName }}</a>
                                             </span>
                                             <span
-                                                class="description">{{ date('d M, Y - h:m a', strtotime($item->atpDate)) }}</span>
+                                                class="description">{{ date('d M, Y - h:m a', (strtotime($item->atpDate)) + ((5 * 60 * 60) + (30 * 60))) }}</span>
                                         </div>
                                     </td>
                                 </tr>
