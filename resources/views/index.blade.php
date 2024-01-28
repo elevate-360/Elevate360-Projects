@@ -22,12 +22,11 @@
                             <tr>
                                 <th>Attempt No.</th>
                                 <th>Title</th>
-                                <th>Platform</th>
-                                <th>Technology</th>
+                                <th>Description</th>
                                 <th>Project Amount</th>
-                                <th>Contact Type</th>
+                                <th>Platform</th>
                                 <th>Status</th>
-                                <th>Date-time</th>
+                                <th>User</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -35,25 +34,20 @@
                                 <tr>
                                     <td>{{ ++$count }}</td>
                                     <td>{{ $item->atpProjectName }}</td>
-                                    <td>{{ $item->atpPlatform }}</td>
-                                    <td>{{ $item->atpTechnology }}</td>
+                                    <td>{{ $item->atpDescription }}</td>
                                     <td>{{ $item->atpProjectAmount }}</td>
                                     <td>
-                                        @switch($item->atpContactType)
-                                            @case('0')
-                                                <i class="fa fa-envelope"></i>
-                                            @break
-
+                                        @switch($item->atpStatus)
                                             @case('1')
-                                                <i class="fa fa-comment"></i>
+                                                <span class="badge badge-info">Freelancer</span>
                                             @break
 
                                             @case('2')
-                                                <i class="fa fa-phone"></i>
+                                                <span class="badge badge-success">Upwork</span>
                                             @break
 
                                             @case('3')
-                                                    <i class="fa fa-whatsapp"></i>
+                                                <span class="badge badge-primary">Linkedin</span>
                                             @break
                                         @endswitch
                                     </td>
@@ -90,10 +84,9 @@
                             <tr>
                                 <th>Attempt No.</th>
                                 <th>Title</th>
-                                <th>Platform</th>
-                                <th>Technology</th>
+                                <th>Description</th>
                                 <th>Project Amount</th>
-                                <th>Contact Type</th>
+                                <th>Platform</th>
                                 <th>Status</th>
                                 <th>User</th>
                             </tr>

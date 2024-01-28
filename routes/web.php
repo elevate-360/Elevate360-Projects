@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\{LoginController, EmailController, IndexController};
+use App\Http\Controllers\{LoginController, EmailController, IndexController, MailsController};
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,8 +21,10 @@ Route::get('/index', [IndexController::class, 'index'])->name('index');
 Route::get('/data', [IndexController::class, 'data'])->name('data');
 Route::get('/email', [EmailController::class, 'view']);
 Route::post('/email/send', [EmailController::class, 'sendEmail']);
-Route::post('/data/submit', [App\Http\Controllers\IndexController::class, 'insertData']);
+Route::post('/data/submit', [IndexController::class, 'insertData']);
 Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
+Route::get('/mail', [MailsController::class, 'getMail']);
+Route::get('/mails', [MailsController::class, 'index']);
 Route::get('/forgot-password', function () {
     return view('forget');
 });

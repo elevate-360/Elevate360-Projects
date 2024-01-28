@@ -143,9 +143,9 @@
                         </li>
                         <li class="nav-item">
                             <a href="/data" class="nav-link @yield('activeTbl')">
-                                <i class="nav-icon fas fa-credit-card"></i>
+                                <i class="nav-icon fas fa-plus"></i>
                                 <p>
-                                    Add Transection
+                                    Add Project Details
                                     <span class="right badge badge-danger">New</span>
                                 </p>
                             </a>
@@ -159,6 +159,17 @@
                                 </p>
                             </a>
                         </li>
+                        @if (session('user')->userLogin == 'jay@elevate360.in')
+                            <li class="nav-item">
+                                <a href="/mails" class="nav-link @yield('activeMail')">
+                                    <i class="nav-icon fas fa-inbox"></i>
+                                    <p>
+                                        Sent Emails
+                                        <span class="right badge badge-info">Update</span>
+                                    </p>
+                                </a>
+                            </li>
+                        @endif
                     </ul>
                 </nav>
                 <!-- /.sidebar-menu -->

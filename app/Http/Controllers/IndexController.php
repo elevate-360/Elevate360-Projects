@@ -13,9 +13,9 @@ class IndexController extends BaseController
     {
         if (session()->has("user")) {
             $data = DB::table('tblAttempts')
-            ->join('tblUser', 'tblUser.userId', '=', 'tblAttempts.atpUser')
-            ->select('tblAttempts.*', 'tblUser.userFirstName', 'tblUser.userProfile')
-            ->get();
+                ->join('tblUser', 'tblUser.userId', '=', 'tblAttempts.atpUser')
+                ->select('tblAttempts.*', 'tblUser.userFirstName', 'tblUser.userProfile')
+                ->get();
             $count = 0;
 
             // return statement
@@ -32,18 +32,17 @@ class IndexController extends BaseController
 
     public function insertData(Request $request)
     {
-        $traTitle = $request->input("traTitle");
-        $traEntity = $request->input("traEntity");
-        $traAmount = $request->input("traAmount");
-        $traType = (is_null($request->input("traType")) ? "0" : "1");
-        $traMethod = $request->input("traMethod");
-        DB::table('tblTransection')->insert([
-            'traTitle' => $traTitle,
-            'traEntity' => $traEntity,
-            'traAmount' => $traAmount,
-            'traType' => $traType,
-            'traMethod' => $traMethod,
-            'traUserId' => session('user')->userId
+        $title = $request->input("atpTitle");
+        $desc = $request->input("atpDesc");
+        $amount = $request->input("atpAmount");
+        $platform = $request->input("atpPlatform");
+        DB::table('tblAttempts')->insert([
+            'atpProjectName' => $title,
+            'atpPlatform' => $platform,
+            'atpDescription' => $desc,
+            'atpProjectAmount' => $amount,
+            'atpStatus' => "1",
+            'atpUser' => session('user')->userId
         ]);
 
         return redirect()->route('index');
