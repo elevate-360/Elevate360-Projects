@@ -12,14 +12,25 @@ class IndexController extends BaseController
     public function index()
     {
         if (session()->has("user")) {
+            // all attempts details
             $data = DB::table('tblAttempts')
                 ->join('tblUser', 'tblUser.userId', '=', 'tblAttempts.atpUser')
                 ->select('tblAttempts.*', 'tblUser.userFirstName', 'tblUser.userProfile')
                 ->get();
+
+            // individual attempts summary
+            $idvData = DB::table('tblAttempts')
+            ->join('tblUser', 'tblUser.userId', '=', 'tblAttempts.atpUser')
+            ->select('tblUser.userFirstName', 'tblUser.userLastName', 'tblUser.userProfile', 'tblUser.userRole', DB::raw('SUM(CASE WHEN `atpStatus` = \'0\' THEN 1 ELSE 0 END) AS declined, SUM(CASE WHEN `atpStatus` = \'1\' THEN 1 ELSE 0 END) AS pending, SUM(CASE WHEN `atpStatus` = \'2\' THEN 1 ELSE 0 END) AS accepted'))
+            ->groupBy('tblUser.userId')
+            ->get();
+
+            // count variables
             $count = 0;
+            $userCount = 0;
 
             // return statement
-            return view('index', compact('data', 'count'));
+            return view('index', compact('data', 'idvData', 'count', 'userCount'));
         } else {
             return redirect()->route('login');
         }
@@ -32,10 +43,10 @@ class IndexController extends BaseController
 
     public function insertData(Request $request)
     {
-        $title = $request->input("atpTitle");
-        $desc = $request->input("atpDesc");
-        $amount = $request->input("atpAmount");
-        $platform = $request->input("atpPlatform");
+        $title = trim($request->input("atpTitle"));
+        $desc = trim($request->input("atpDesc"));
+        $amount = trim($request->input("atpAmount"));
+        $platform = trim($request->input("atpPlatform"));
         DB::table('tblAttempts')->insert([
             'atpProjectName' => $title,
             'atpPlatform' => $platform,

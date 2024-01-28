@@ -163,11 +163,11 @@
 
     {{-- User wise Report --}}
 
-    {{-- <div class="row">
+    <div class="row">
         <div class="col-12">
             <div class="card">
                 <div class="card-header">
-                    <h3 class="card-title"><strong>Detailed Report</strong></h3>
+                    <h3 class="card-title"><strong>Summary</strong></h3>
                 </div>
                 <div class="card-body">
                     <table class="table table-bordered">
@@ -175,10 +175,11 @@
                             <tr>
                                 <td><strong>#</strong></td>
                                 <td><strong>User</strong></td>
-                                <td class="w-25"><strong>Amount Received</strong></td>
-                                <td><strong>Amount Spent</strong></td>
+                                <td><strong>Pending Projects</strong></td>
+                                <td><strong>Accepted Projects</strong></td>
+                                <td><strong>Declined Projects</strong></td>
                             </tr>
-                            @foreach ($userReport as $item)
+                            @foreach ($idvData as $item)
                                 <tr>
                                     <td><strong>{{ ++$userCount }}</strong></td>
                                     <td>
@@ -199,14 +200,15 @@
                                                     @break
 
                                                     @case('2')
-                                                        <span class="badge bg-success">Company Profit</span>
+                                                        <span class="badge bg-success">Business Developent Executive</span>
                                                     @break
                                                 @endswitch
                                             </span>
                                         </div>
                                     </td>
-                                    <td>{{ $item->amountReceived }}</td>
-                                    <td>{{ $item->amountSpent }}</td>
+                                    <td>{{ $item->pending }}</td>
+                                    <td>{{ $item->accepted }}</td>
+                                    <td>{{ $item->declined }}</td>
                                 </tr>
                             @endforeach
                         </tbody>
@@ -214,5 +216,5 @@
                 </div>
             </div>
         </div>
-    </div> --}}
+    </div>
 @endsection

@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Elevate360 | Money Dashboard</title>
+    <title>Elevate360 | Project Dashboard</title>
 
     <!-- Favicons -->
     <link href="dist/img/favicon.png" rel="icon">
@@ -48,10 +48,10 @@
                             class="fas fa-bars"></i></a>
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
-                    <a href="index3.html" class="nav-link">Home</a>
+                    <a href="/index" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
-                    <a href="#" class="nav-link">Contact</a>
+                    <a href="/mail" class="nav-link">Mail</a>
                 </li>
             </ul>
 

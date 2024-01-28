@@ -24,16 +24,16 @@
                     <div class="form-group">
                         <label for="exampleInputEmail1">Title</label>
                         <input type="text" class="form-control" id="exampleInputEmail1" name="atpTitle"
-                            placeholder="Enter transection title">
+                            placeholder="Enter project title">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Descreption</label>
-                        <textarea name="atpDesc" class="form-control" rows="4" placeholder="Enter Project Descreption"></textarea>
+                        <textarea name="atpDesc" class="form-control" rows="4" placeholder="Enter project descreption"></textarea>
                     </div>
                     <div class="form-group">
                         <label for="amount">Amount</label>
-                        <input type="number" step="0.01" class="form-control" id="amount" name="atpAmount"
-                            placeholder="Enter transection amount">
+                        <textarea type="text" class="form-control" id="amount" name="atpAmount"
+                            placeholder="Enter project amount" rows="4"></textarea>
                     </div>
                     <div class="form-group">
                         <label for="type">Transection Type</label><br>
