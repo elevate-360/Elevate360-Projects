@@ -169,7 +169,7 @@
                 <div class="card-header">
                     <h3 class="card-title"><strong>Summary</strong></h3>
                 </div>
-                <div class="card-body table-responsive p-0">
+                <div class="card-body table-responsive">
                     <table class="table table-hover table-bordered table-striped table-head-fixed text-nowrap" id="example2">
                         <tbody>
                             <tr>
