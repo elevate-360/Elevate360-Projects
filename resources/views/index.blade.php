@@ -17,7 +17,7 @@
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body table-responsive p-0">
-                    <table id="example1" class="table table-hover table-bordered table-striped">
+                    <table id="example1" class="table table-head-fixed text-nowrap">
                         <thead>
                             <tr>
                                 <th>Attempt No.</th>
