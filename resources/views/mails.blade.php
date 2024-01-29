@@ -34,7 +34,7 @@
                                     <td>{{ $item['mailToName'] }}</td>
                                     <td>
                                         @php
-                                            $emails = explode(',', json_decode($item['mailTo'], true));
+                                            $emails = json_decode($item['mailTo'], true);
                                         @endphp
                                         @foreach ($emails as $value)
                                             <span class="badge badge-info">{{ $value }}</span><br>
