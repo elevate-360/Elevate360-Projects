@@ -310,7 +310,7 @@
  <table class="pc-project-body" style="table-layout: fixed;min-width: 600px;background-color:#f4f4f4;" bgcolor="#f4f4f4" width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
   <tr>
    <td align="center" valign="top">
-    <table class="pc-project-container" style="width: 600px; max-width: 600px;" width="600" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
+    <table class="pc-project-container" style="width: 100%;" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
      <tr>
       <td style="padding: 0px 0px 0px 0px;" align="left" valign="top">
        <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
