@@ -36,9 +36,13 @@
                                         @php
                                             $emails = json_decode($item['mailTo'], true);
                                         @endphp
-                                        @foreach ($emails as $value)
-                                            <span class="badge badge-info">{{ $value }}</span><br>
-                                        @endforeach
+                                        @if (is_array($emails))
+                                            @foreach ($emails as $value)
+                                                <span class="badge badge-info">{{ $value }}</span><br>
+                                            @endforeach
+                                        @else
+                                            <span class="badge badge-info">{{ $emails }}</span><br>
+                                        @endif
                                     </td>
                                     <td>{{ $item['mailSubject'] }}</td>
                                     <td><span
