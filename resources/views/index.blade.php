@@ -169,7 +169,7 @@
                 <div class="card-header">
                     <h3 class="card-title"><strong>Summary</strong></h3>
                 </div>
-                <div class="card-body table-responsive p-0">
+                <div class="card-body table-responsive p-0" style="height: 200px;">
                     <table class="table table-head-fixed text-nowrap">
                         <tbody>
                             <tr>
