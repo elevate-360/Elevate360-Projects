@@ -16,8 +16,8 @@
                     <h3 class="card-title"><strong>Transection details</strong></h3>
                 </div>
                 <!-- /.card-header -->
-                <div class="card-body table-responsive p-0">
-                    <table id="example1" class="table table-head-fixed">
+                <div class="card-body table-responsive">
+                    <table id="example1" class="table table-hover table-bordered table-striped table-head-fixed">
                         <thead>
                             <tr>
                                 <th>Attempt No.</th>
