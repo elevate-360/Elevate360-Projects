@@ -169,8 +169,8 @@
                 <div class="card-header">
                     <h3 class="card-title"><strong>Summary</strong></h3>
                 </div>
-                <div class="card-body">
-                    <table class="table table-bordered">
+                <div class="card-body table-responsive p-0">
+                    <table class="table table-head-fixed text-nowrap">
                         <tbody>
                             <tr>
                                 <td><strong>#</strong></td>
