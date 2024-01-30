@@ -44,11 +44,13 @@ class IndexController extends BaseController
     public function insertData(Request $request)
     {
         $title = trim($request->input("atpTitle"));
+        $link = trim($request->input("atpLink"));
         $desc = trim($request->input("atpDesc"));
         $amount = trim($request->input("atpAmount"));
         $platform = trim($request->input("atpPlatform"));
         DB::table('tblAttempts')->insert([
             'atpProjectName' => $title,
+            'atpLink' => $link,
             'atpPlatform' => $platform,
             'atpDescription' => $desc,
             'atpProjectAmount' => $amount,

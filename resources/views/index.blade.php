@@ -33,7 +33,7 @@
                             @foreach ($data as $item)
                                 <tr>
                                     <td>{{ ++$count }}</td>
-                                    <td>{{ $item->atpProjectName }}</td>
+                                    <td><a href="{{ $item->atpLink }}" target="_blank" rel="noopener noreferrer">{{ $item->atpProjectName }}</a></td>
                                     <td>{{ $item->atpDescription }}</td>
                                     <td>{{ $item->atpProjectAmount }}</td>
                                     <td>

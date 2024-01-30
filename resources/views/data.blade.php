@@ -27,6 +27,11 @@
                             placeholder="Enter project title">
                     </div>
                     <div class="form-group">
+                        <label for="exampleInputEmail2">Link</label>
+                        <input type="text" class="form-control" id="exampleInputEmail2" name="atpLink"
+                            placeholder="Enter project link">
+                    </div>
+                    <div class="form-group">
                         <label for="exampleInputPassword1">Descreption</label>
                         <textarea name="atpDesc" class="form-control" rows="4" placeholder="Enter project descreption"></textarea>
                     </div>
