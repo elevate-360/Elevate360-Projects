@@ -37,8 +37,8 @@
                     </div>
                     <div class="form-group">
                         <label for="amount">Amount</label>
-                        <textarea type="text" class="form-control" id="amount" name="atpAmount"
-                            placeholder="Enter project amount" rows="4"></textarea>
+                        <input type="text" class="form-control" id="amount" name="atpAmount"
+                            placeholder="Enter project amount" />
                     </div>
                     <div class="form-group">
                         <label for="type">Transection Type</label><br>
