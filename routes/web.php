@@ -24,7 +24,9 @@ Route::post('/email/send', [EmailController::class, 'sendEmail']);
 Route::post('/data/submit', [IndexController::class, 'insertData']);
 Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
 Route::get('/mail', [MailsController::class, 'getMail']);
+Route::get('/render', [MailsController::class, 'getBody']);
 Route::get('/mails', [MailsController::class, 'index']);
+Route::get('/inbox', [MailsController::class, 'getInboundMails']);
 Route::get('/forgot-password', function () {
     return view('forget');
 });

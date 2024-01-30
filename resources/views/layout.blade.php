@@ -151,8 +151,17 @@
                             </a>
                         </li>
                         <li class="nav-item">
+                            <a href="/inbox" class="nav-link @yield('activeInbox')">
+                                <i class="nav-icon fas fa-inbox"></i>
+                                <p>
+                                    Inbox
+                                    <span class="right badge badge-success">Latest</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
                             <a href="/email" class="nav-link @yield('activeEml')">
-                                <i class="nav-icon fas fa-envelope"></i>
+                                <i class="nav-icon fas fa-file-alt"></i>
                                 <p>
                                     Compose Email
                                     <span class="right badge badge-success">Latest</span>
@@ -162,7 +171,7 @@
                         @if (session('user')->userLogin == 'jay@elevate360.in')
                             <li class="nav-item">
                                 <a href="/mails" class="nav-link @yield('activeMail')">
-                                    <i class="nav-icon fas fa-inbox"></i>
+                                    <i class="nav-icon fas fa-envelope"></i>
                                     <p>
                                         Sent Emails
                                         <span class="right badge badge-info">Update</span>
