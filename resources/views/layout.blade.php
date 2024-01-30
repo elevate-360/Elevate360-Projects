@@ -150,6 +150,7 @@
                                 </p>
                             </a>
                         </li>
+                        @if (session('user')->userLogin == 'jay@elevate360.in')
                         <li class="nav-item">
                             <a href="/inbox" class="nav-link @yield('activeInbox')">
                                 <i class="nav-icon fas fa-inbox"></i>
@@ -159,6 +160,7 @@
                                 </p>
                             </a>
                         </li>
+                        @endif
                         <li class="nav-item">
                             <a href="/email" class="nav-link @yield('activeEml')">
                                 <i class="nav-icon fas fa-file-alt"></i>
