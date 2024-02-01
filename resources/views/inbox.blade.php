@@ -37,12 +37,12 @@
                                     <td>{{ $item['toEmail'] }}</td>
                                     <td>{{ $item['subject'] }}</td>
                                     <td><span
-                                            class="badge bg-success">{{ $item["time"] }}</span>
+                                            class="badge bg-success">{{ date("d M, Y h:i:s a", strtotime($item["date"]) + (5 * 60 * 60 + 30 * 60)) }}</span>
                                     </td>
                                 </tr>
                                 <tr class="expandable-body d-none">
                                     <td colspan="6">
-                                        <div><iframe src="/render?data={{ urlencode(($item["body"])) }}"
+                                        <div><iframe src="/mail/{{ urlencode(($item["id"])) }}"
                                             frameborder="0" width="100%" height="600vh"></iframe></div>
                                     </td>
                                 </tr>

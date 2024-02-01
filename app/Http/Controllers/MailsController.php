@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\MailProvider\InboundMail;
+use App\Models\Inbox;
 use App\Models\Mails;
 use Illuminate\Routing\Controller as BaseController;
+use Illuminate\Support\Composer;
 
 class MailsController extends BaseController
 {
@@ -24,25 +26,15 @@ class MailsController extends BaseController
         return view('emails.email', ["data" => json_decode($_GET["data"], true)]);
     }
 
-    public function getBody()
+    public function render($id)
     {
-        return view('render', ["data" => ($_GET["data"])]);
+        $data = Inbox::where('id', $id)->value('body');
+        return view('render', compact("data"));
     }
 
     public function getInboundMails() {
         // Get All Inbound Mails
-        $messages  = InboundMail::getMails();
-        $mails = array();
-        foreach ($messages as $message) {
-            $mails[] = array(
-                "subject" => $message->getSubject(),
-                "body" => $message->getHTMLBody(),
-                "fromEmail" => $message->getFrom()[0]->mail,
-                "fromName" => $message->getFrom()[0]->personal,
-                "toEmail" => $message->getTo(),
-                "time" => $message->getdate()[0]->format('d M, Y h:i:s a')
-            );
-        }
+        $mails = Inbox::orderBy("date", "DESC")->get();
 
         $count = 0;
         return view("inbox", compact("mails", "count"));

@@ -27,6 +27,7 @@ Route::get('/mail', [MailsController::class, 'getMail']);
 Route::get('/render', [MailsController::class, 'getBody']);
 Route::get('/mails', [MailsController::class, 'index']);
 Route::get('/inbox', [MailsController::class, 'getInboundMails']);
+Route::get('/mail/{id}', [MailsController::class, 'render']);
 Route::get('/forgot-password', function () {
     return view('forget');
 });
