@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Elevate360 | Money Log in</title>
+    <title>Elevate360 | Projects Dashboard Log in</title>
 
     <!-- Favicons -->
     <link href="dist/img/favicon.png" rel="icon">
