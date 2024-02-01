@@ -31,7 +31,6 @@ class CheckEmails extends Command
         $client->connect();
         $folder = $client->getFolder('INBOX');
         $messages = $folder->query()->unseen()->get();
-        $client->disconnect();
 
         foreach ($messages as $message) {
             $details = array(
@@ -43,6 +42,8 @@ class CheckEmails extends Command
                 "date" => $message->getdate()[0]->format('Y-m-d H:i:s')
             );
             Inbox::insert($details);
+            $message->setFlag('SEEN');
         }
+        $client->disconnect();
     }
 }
