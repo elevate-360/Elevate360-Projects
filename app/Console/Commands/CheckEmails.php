@@ -2,6 +2,7 @@
 
 namespace App\Console\Commands;
 
+use App\Models\Inbox;
 use Illuminate\Console\Command;
 use Webklex\IMAP\Facades\Client;
 
@@ -28,28 +29,20 @@ class CheckEmails extends Command
         ]);
 
         $client->connect();
-
         $folder = $client->getFolder('INBOX');
         $messages = $folder->query()->unseen()->get();
+        $client->disconnect();
 
         foreach ($messages as $message) {
-            // dd($message);
-            // Process each email
-            echo 'Subject: '.$message->getSubject()."\n";
-            // Implement your logic here
-            $body = $message->getTextBody();
-            if (empty($body)) {
-                $body = $message->getHTMLBody();
-            }
-            echo "Body: " . $body . "\n";
-            echo "From: " . $message->getFrom()[0]->mail . "\n";
-            echo "From name: " . $message->getFrom()[0]->personal . "\n";
-            echo "to: " . $message->getToAddress() . "\n";
-
-            // Optionally mark the message as read
-            // $message->setFlag('SEEN');
+            $details = array(
+                "fromName" => $message->getFrom()[0]->personal,
+                "fromEmail" => $message->getFrom()[0]->mail,
+                "toEmail" => $message->getTo(),
+                "subject" => $message->getSubject(),
+                "body" => $message->getHTMLBody(),
+                "date" => $message->getdate()[0]->format('Y-m-d H:i:s')
+            );
+            Inbox::insert($details);
         }
-
-        $client->disconnect();
     }
 }
