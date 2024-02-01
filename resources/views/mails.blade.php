@@ -17,7 +17,7 @@
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body table-responsive p-0" style="height: 693px;">
-                    <table class="table table-head-fixed text-nowrap" id="">
+                    <table class="table table-hover table-head-fixed text-nowrap" id="">
                         <thead>
                             <tr>
                                 <th>#</th>

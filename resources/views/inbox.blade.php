@@ -17,13 +17,13 @@
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body table-responsive p-0" style="height: 693px;">
-                    <table class="table table-head-fixed text-nowrap" id="">
+                    <table class="table table-hover table-head-fixed text-nowrap" id="">
                         <thead>
                             <tr>
                                 <th>#</th>
                                 <th>Name</th>
                                 <th>Email</th>
-                                <th>To</th>
+                                <th>To Email Address</th>
                                 <th>Subject</th>
                                 <th>Date</th>
                             </tr>
@@ -34,7 +34,14 @@
                                     <td>{{ ++$count }}</td>
                                     <td>{{ $item['fromName'] }}</td>
                                     <td>{{ $item['fromEmail'] }}</td>
-                                    <td>{{ $item['toEmail'] }}</td>
+                                    <td>
+                                        @php
+                                            $emails = explode(",", $item["toEmail"]);
+                                            foreach ($emails as $email) {
+                                                echo "<span class='badge badge-info'>" . $email . "</span>&nbsp;";
+                                            }
+                                        @endphp
+                                    </td>
                                     <td>{{ $item['subject'] }}</td>
                                     <td><span
                                             class="badge bg-success">{{ date("d M, Y h:i:s a", strtotime($item["date"]) + (5 * 60 * 60 + 30 * 60)) }}</span>
