@@ -21,16 +21,16 @@
                 @method('POST')
                 <div class="card-body">
                     <div class="form-group">
-                        <input class="form-control" placeholder="To:"  type="text" name="email">
+                        <input class="form-control" placeholder="To:" type="text" name="email" required>
                     </div>
                     <div class="form-group">
-                        <input class="form-control" placeholder="Full name" type="text" name="name">
+                        <input class="form-control" placeholder="Full name" type="text" name="name" required>
                     </div>
                     <div class="form-group">
-                        <input class="form-control" placeholder="Subject:" type="text" name="subject">
+                        <input class="form-control" placeholder="Subject:" type="text" name="subject" required>
                     </div>
                     <div class="form-group">
-                        <textarea id="compose-textarea" class="form-control" style="height: 300px" name="message">
+                        <textarea id="compose-textarea" class="form-control" style="height: 300px" name="message" required>
                     </textarea>
                     </div>
                 </div>
