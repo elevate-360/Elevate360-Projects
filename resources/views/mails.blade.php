@@ -100,7 +100,7 @@
                                     <td>{{ $item->operatingSystem }}</td>
                                     <td><span class="badge badge-info">{{ $item->loginCount }}</span></td>
                                     <td><span
-                                            class="badge bg-warning">{{ date('d M, Y h:i a', strtotime($item->loginDate . " " . $item->loginTime->) + ((5 * 60 * 60) + (30 * 60))) }}</span>
+                                            class="badge bg-warning">{{ date('d M, Y h:i a', strtotime($item->loginDate . " " . $item->loginTime) + ((5 * 60 * 60) + (30 * 60))) }}</span>
                                     </td>
                                 </tr>
                             @endforeach
