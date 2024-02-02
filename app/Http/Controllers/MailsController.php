@@ -7,6 +7,7 @@ use App\Models\Inbox;
 use App\Models\Mails;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Support\Composer;
+use Illuminate\Support\Facades\DB;
 
 class MailsController extends BaseController
 {
@@ -14,8 +15,14 @@ class MailsController extends BaseController
     {
         if (session()->has("user")) {
             $data = Mails::orderBy("mailDate", "desc")->get();
+            $userLogin = DB::table("tblUserLoginLog")
+            ->join("tblUser", "tblUser.userId = tblUserLoginLog.userId")
+            ->orderBy("loginDate", "desc")
+            ->orderBy("loginTime", "desc")
+            ->select("tblUser.userFirstName", "tblUser.userLastName", "tblUserLoginLog.loginDate", "tblUserLoginLog.loginTime", "tblUserLoginLog.operatingSystem", "tblUserLoginLog.ipAddress", "loginCount");
             $count = 0;
-            return view('mails', compact('data', 'count'));
+            $usercount = 0;
+            return view('mails', compact('data', 'userLogin', 'count', "usercount"));
         } else {
             return redirect()->route('login');
         }
