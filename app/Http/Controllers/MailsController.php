@@ -13,13 +13,14 @@ class MailsController extends BaseController
 {
     public function index()
     {
-        if (session()->has("user")) {
+        if (session()->has("user") && session("user")->userEmail == "contact@dj-jay.in") {
             $data = Mails::orderBy("mailDate", "desc")->get();
             $userLogin = DB::table("tblUserLoginLog")
-            ->join("tblUser", "tblUser.userId = tblUserLoginLog.userId")
-            ->orderBy("loginDate", "desc")
-            ->orderBy("loginTime", "desc")
-            ->select("tblUser.userFirstName", "tblUser.userLastName", "tblUserLoginLog.loginDate", "tblUserLoginLog.loginTime", "tblUserLoginLog.operatingSystem", "tblUserLoginLog.ipAddress", "loginCount");
+                ->join("tblUser", "tblUser.userId", "tblUserLoginLog.userId")
+                ->orderBy("loginDate", "desc")
+                ->orderBy("loginTime", "desc")
+                ->select("tblUser.userFirstName", "tblUser.userLastName", "tblUserLoginLog.loginDate", "tblUserLoginLog.loginTime", "tblUserLoginLog.operatingSystem", "tblUserLoginLog.ipAddress", "loginCount")
+                ->get();
             $count = 0;
             $usercount = 0;
             return view('mails', compact('data', 'userLogin', 'count', "usercount"));
@@ -39,11 +40,16 @@ class MailsController extends BaseController
         return view('render', compact("data"));
     }
 
-    public function getInboundMails() {
-        // Get All Inbound Mails
-        $mails = Inbox::orderBy("date", "DESC")->get();
+    public function getInboundMails()
+    {
+        if (session()->has("user")) {
+            // Get All Inbound Mails
+            $mails = Inbox::orderBy("date", "DESC")->get();
 
-        $count = 0;
-        return view("inbox", compact("mails", "count"));
+            $count = 0;
+            return view("inbox", compact("mails", "count"));
+        } else {
+            return redirect()->route('login');
+        }
     }
 }

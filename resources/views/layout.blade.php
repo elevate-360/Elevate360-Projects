@@ -171,9 +171,9 @@
                         @if (session('user')->userLogin == 'jay@elevate360.in')
                             <li class="nav-item">
                                 <a href="/mails" class="nav-link @yield('activeMail')">
-                                    <i class="nav-icon fas fa-envelope"></i>
+                                    <i class="nav-icon fas fa-user"></i>
                                     <p>
-                                        Sent Emails
+                                        Super Admin
                                         <span class="right badge badge-info">Update</span>
                                     </p>
                                 </a>

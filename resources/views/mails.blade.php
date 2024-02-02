@@ -13,7 +13,45 @@
         <div class="col-12">
             <div class="card">
                 <div class="card-header">
-                    <h3 class="card-title"><strong>Mails Sent</strong></h3>
+                    <h3 class="card-title"><strong>User Login Log</strong></h3>
+                </div>
+                <!-- /.card-header -->
+                <div class="card-body table-responsive" style="height: 693px;">
+                    <table class="table table-hover table-bordered table-stripped table-head-fixed text-nowrap" id="example1">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>User Name</th>
+                                <th>IP Address</th>
+                                <th>Operating System</th>
+                                <th>Login Count</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach ($userLogin as $item)
+                                <tr>
+                                    <td>{{ ++$usercount }}</td>
+                                    <td>{{ $item->userFirstName . " " . $item->userLastName }}</td>
+                                    <td><span class="badge badge-info">{{ $item->ipAddress }}</span></td>
+                                    <td>{{ $item->operatingSystem }}</td>
+                                    <td><span class="badge badge-success">{{ $item->loginCount }}</span></td>
+                                    <td><span
+                                            class="badge bg-warning">{{ date('d M, Y h:i a', strtotime($item->loginDate . " " . $item->loginTime) + ((5 * 60 * 60) + (30 * 60))) }}</span>
+                                    </td>
+                                </tr>
+                            @endforeach
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title"><strong>Super Admin Details</strong></h3>
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body table-responsive p-0" style="height: 693px;">
@@ -72,56 +110,18 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-12">
-            <div class="card">
-                <div class="card-header">
-                    <h3 class="card-title"><strong>User Login Log</strong></h3>
-                </div>
-                <!-- /.card-header -->
-                <div class="card-body table-responsive p-0" style="height: 693px;">
-                    <table class="table table-hover table-stripped table-head-fixed text-nowrap example1" id="">
-                        <thead>
-                            <tr>
-                                <th>#</th>
-                                <th>User Name</th>
-                                <th>IP Address</th>
-                                <th>Operating System</th>
-                                <th>Login Count</th>
-                                <th>Date</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            @foreach ($userLogin as $item)
-                                <tr>
-                                    <td>{{ ++$usercount }}</td>
-                                    <td>{{ $item->userFirstName . " " . $item->userLastName }}</td>
-                                    <td><span class="badge badge-info">{{ $item->ipAddress }}</span></td>
-                                    <td>{{ $item->operatingSystem }}</td>
-                                    <td><span class="badge badge-info">{{ $item->loginCount }}</span></td>
-                                    <td><span
-                                            class="badge bg-warning">{{ date('d M, Y h:i a', strtotime($item->loginDate . " " . $item->loginTime) + ((5 * 60 * 60) + (30 * 60))) }}</span>
-                                    </td>
-                                </tr>
-                            @endforeach
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </div>
 @endsection
 
 @section('tblScript')
     <script>
         $(function() {
-            $(".example1").DataTable({
+            $("#example1").DataTable({
                 "responsive": true,
                 "lengthChange": false,
                 "autoWidth": false,
                 "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
             }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
-            $('.example2').DataTable({
+            $('#example2').DataTable({
                 "paging": true,
                 "lengthChange": false,
                 "searching": false,
