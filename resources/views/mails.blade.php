@@ -5,7 +5,7 @@
 @endsection
 
 @section('pageTitle')
-    Mails Sent
+    Super Admin Details
 @endsection
 
 @section('content')
@@ -51,7 +51,7 @@
         <div class="col-12">
             <div class="card">
                 <div class="card-header">
-                    <h3 class="card-title"><strong>Super Admin Details</strong></h3>
+                    <h3 class="card-title"><strong>Mails Sent</strong></h3>
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body table-responsive p-0" style="height: 693px;">
