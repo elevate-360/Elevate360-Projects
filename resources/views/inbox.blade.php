@@ -44,7 +44,7 @@
                                     </td>
                                     <td>{{ $item['subject'] }}</td>
                                     <td><span
-                                            class="badge bg-success">{{ date("d M, Y h:i:s a", strtotime($item["date"]) + (5 * 60 * 60 + 30 * 60)) }}</span>
+                                            class="badge bg-success">{{ date("d M, Y h:i:s a", strtotime($item["date"]) }}</span>
                                     </td>
                                 </tr>
                                 <tr class="expandable-body d-none">
