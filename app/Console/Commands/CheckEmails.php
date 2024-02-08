@@ -33,13 +33,6 @@ class CheckEmails extends Command
         $messages = $folder->query()->unseen()->get();
 
         foreach ($messages as $message) {
-<<<<<<< HEAD
-            $details = array(
-                ""
-            );
-            // Optionally mark the message as read
-            $message->setFlag('SEEN');
-=======
             $details = array(
                 "fromName" => $message->getFrom()[0]->personal,
                 "fromEmail" => $message->getFrom()[0]->mail,
@@ -50,7 +43,6 @@ class CheckEmails extends Command
             );
             Inbox::insert($details);
             $message->setFlag('SEEN');
->>>>>>> 24ca63294fbecd76f4e10ba31ab8b86032865257
         }
         $client->disconnect();
     }
